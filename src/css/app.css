@@ -1,0 +1,14 @@
+@media only screen and (max-width: 600px) {
+    .changeX1{
+        justify-content: space-around
+    }
+    .changeX2 {
+        display: none;
+    }
+    .changeX6{
+        margin-left: 605px !important;
+    }
+    .changeRespX1{
+        display: none;
+    }
+  }

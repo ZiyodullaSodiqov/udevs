@@ -1,0 +1,80 @@
+.changeX1{
+    margin-top: 20px !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+}
+.changeX2{
+    margin-top: 10px;
+    font-weight: 600;
+}
+.changeX3{
+    margin-top: 5px;
+}
+.Img1{
+    background-image: url('../images/meet.svg');
+    border-radius: 8px;
+    height: 400px;
+}
+.changet2{
+    margin-top: 50px;
+}
+.context_p1{
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.btnChange_p1{
+    width: 180px;
+    height: 50px;
+    margin-top: 50px;
+    color: #0d6efd !important;
+    background-color: transparent !important;
+}
+.btnChange_p1:hover{
+    background-color: #0d6efd !important;
+    color: #fff !important;
+}
+.cXv2{
+    width: 95% !important;
+}
+.avatar_Chxv1{
+    padding: 5px;
+    cursor: pointer;
+}
+.ppL2{
+    margin-top: 15px !important;
+    width: 95% !important;
+}
+.MuiBox-root , .css-1wnsr1i{
+    border-radius: 8px;
+    border: none !important;
+}
+.changeX4{
+    transform: translateX(15px) !important;
+}
+.spnChange1{
+    font-weight: 600;
+    padding: 8px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+}
+/*.changeX6{margin-left: -485px;}*/
+.changeX5{
+    background: #0d6efd;
+    display: flex;
+    width: 128px;
+    padding: 8px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+.changeX7{
+    width: 150px !important;
+    height: 150px !important;
+    flex-shrink: 0;
+    background: url("../images/storie.svg") no-repeat;
+}
