@@ -28,7 +28,7 @@ import Logo from '../../images/backgrounds/logo.svg'
                     className='footer'
                     style={styleFooter.ft}>
                     <div className="container">
-                        <div className="row">
+                        <div className="row changet3">
                             <div className="col-3">
                                 <img
                                     src={Logo}

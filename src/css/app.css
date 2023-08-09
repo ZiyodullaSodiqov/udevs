@@ -11,4 +11,14 @@
     .changeRespX1{
         display: none;
     }
+    .changet2{
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    .changet3{
+        flex-direction: column;
+        align-content: baseline;
+    }
   }
