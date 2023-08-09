@@ -6,6 +6,7 @@ import Nav from "./components/Nav/Nav";
 import HeaderTwo from "./components/Header/HeaderTwo";
 import HeaderThree from "./components/Header/Headerthree";
 import News from './components/News/New'
+import Text from "./components/Texts/Text";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Route path="/signIn" element={<HeaderTwo />} />
       <Route path="/signUp" element={<HeaderThree />} />
       <Route path="/news" element={<News />} />
+      <Route path="/stories" element={<Text />}/>
     </Routes>
   </BrowserRouter>
   );

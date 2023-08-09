@@ -4,6 +4,7 @@ import Avatar2 from '../../images/avatar2.svg'
 import Avatar3 from '../../images/avatar3.svg'
 import Avatar4 from '../../images/avatar4.svg'
 import Context from '../NewsContext/NewsContext'
+import {Link} from "react-router-dom";
 
     const  styleH2 ={
         color:"#000" ,
@@ -35,9 +36,12 @@ import Context from '../NewsContext/NewsContext'
                         style={styleH2.container}>
                         <div
                             className="col changeX7">
-                            <img src={Avatar1}
-                                 style={styleH2.images}
-                                 alt=""/>
+                            <Link
+                                to="/stories">
+                                <img src={Avatar1}
+                                     style={styleH2.images}
+                                     alt=""/>
+                            </Link>
                         </div>
                         <div
                             className="col changeX7">
